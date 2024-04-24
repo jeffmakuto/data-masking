@@ -31,13 +31,3 @@ class DataMasker:
                 self.loader.df['Email'] = placeholder
         except KeyError:
             print("DataFrame does not have an 'Email' column.")
-
-    def save_masked_data(self, output_file: str) -> None:
-        """
-        Saves masked data frame to a csv file
-
-        Args:
-            output_file(str): path to output CSV file
-        """
-        self.loader.df.to_csv(output_file, index=False)
-        print(f"Masked data has been saved to {output_file}")
