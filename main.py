@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ Create a dataframe """
 from load_csv import DataFrameLoader
+from process_data import process_data
 
 
 def main() -> None:
