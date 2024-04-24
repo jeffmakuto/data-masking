@@ -8,7 +8,7 @@ except ImportError:
     pd = None
 
 
-Class DataFrameLoader:
+class DataFrameLoader:
     """
     class to load CSV data
     """
