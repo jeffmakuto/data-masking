@@ -7,6 +7,7 @@ try:
 except ImportError:
     pd = None
 
+
 Class DataFrameLoader:
     """
     class to load CSV data
