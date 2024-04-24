@@ -12,8 +12,8 @@ def main() -> None:
     with open('data.txt', 'r') as file:
         csv_data = file.read()
 
-     output_file = "output.csv"
-     process_data(csv_data, output_file)
+    output_file = "output.csv"
+    process_data(csv_data, output_file)
 
 
 if __name__ == "__main__":
