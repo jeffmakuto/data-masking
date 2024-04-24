@@ -6,15 +6,6 @@ class MaskedDataHandler:
     """
     Handles saving masked data
     """
-    def __init__(self, loader: DataFrameLoader) -> None:
-        """
-        Initializes a MaskedDataHandler object
-
-        Args:
-            loader (DataFrameLoader): An instance of DataFrameLoader
-        """
-        self.loader = loader
-
     def save_masked_data(self, output_file: str) -> None:
         """
         Saves masked data frame to a CSV file
