@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """ Masked data handling """
+from data_mask import DataMasker
 
 
 class MaskedDataHandler:
