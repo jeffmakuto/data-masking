@@ -21,12 +21,8 @@ def main() -> None:
     5,Collo Musambati,19,(254) 789-765-014,collomusambati@gmail.com,
     0145-7613-0267-3891
     """
-    loader = DataFrameLoader()
-    loader.load_csv(csv_data)
-
-    output_file = "output.csv"
-    loader.df.to_csv(output_file, index=False)
-    print(f"Dataframe has been saved to {output_file}")
+     output_file = "output.csv"
+     process_data(csv_data, output_file)
 
 
 if __name__ == "__main__":
