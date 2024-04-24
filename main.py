@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Create a dataframe """
+""" Main script """
 from load_csv import DataFrameLoader
 from process_data import process_data
 
