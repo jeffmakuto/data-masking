@@ -6,7 +6,7 @@ class MaskedDataHandler:
     """
     Handles saving masked data
     """
-    def __init__(self, loader):
+    def __init__(self, loader: DataFrameLoader) -> None:
         """
         Initializes a MaskedDataHandler object
 
