@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Creating a dataframe """
+""" Loading a csv """
 import pandas as pd
 from io import StringIO
 from typing import Optional
