@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """ Loading a csv """
-import pandas as pd
 from io import StringIO
 from typing import Optional
-
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
 
 Class DataFrameLoader:
     """
@@ -25,4 +27,6 @@ Class DataFrameLoader:
         Returns:
             None
         """
+        if pd is None:
+            raise ImportError("pandas library is required to load CSV data.")
         self.df = pd.read_csv(StringIO(csv_data))
