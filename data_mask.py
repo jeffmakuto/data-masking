@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ Masking data """
 from load_csv import DataFrameLoader
-from create_df import main as create_df
 
 
 class DataMasker:
