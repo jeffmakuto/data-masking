@@ -3,7 +3,10 @@
 from process import DataProcessor
 
 
-def main():
+def main() -> None:
+    """
+    Main file to execute the data methods and classes
+    """
     input_file = 'data.txt'
     output_file = 'output.csv'
     masked_output_file = 'masked.csv'
