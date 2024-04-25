@@ -18,8 +18,9 @@ class DataMasker:
         """
         self.loader = loader
 
-    def mask_email_address(self, placeholder:
-        str = 'masked_email@masked.com') -> None:
+    def mask_email_address(
+        self, placeholder: str = 'masked_email@masked.com'
+        ) -> None:
         """
         Masks real emails with a placeholder in their place
 
