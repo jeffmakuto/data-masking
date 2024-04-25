@@ -10,7 +10,8 @@ class DataProcessor:
     """
     class to process the data
     """
-    def __init__(self, input_file: str, output_file: str, masked_output_file: str) -> None:
+    def __init__(self, input_file: str, output_file: str, 
+                 masked_output_file: str) -> None:
         """
         Initialization
 

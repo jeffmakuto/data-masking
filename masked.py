@@ -27,3 +27,4 @@ class MaskedDataHandler:
         """
         self.loader.df.to_csv(output_file, index=False)
         print(f"Masked data has been saved to {output_file}")
+        
